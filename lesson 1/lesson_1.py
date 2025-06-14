@@ -1,30 +1,60 @@
+#1 вод имени и изменения переменной 
+
+first_name = input("Введите ваше имя: ") # Запрашиваем имя
+middle_name = input("Введите ваше отчество: ") # Запрашиваем отчество
+
+print("Здравствуйте,", first_name, middle_name + "!") #результат
+
+
 a = 1 # int
+print ('a befor', id(a))
+a = 1 + 5
+print ('a after', id(a))
 b = 5.5 # float
 c = True # bool
 d = False # bool
-print(a+b+c)
-
-name = 'Roman'
-surmame = 'Romanov'
-print (name + ' ' + surmame)
-print (name [-4])
-
-company = 'АО "Gate 127"'
-print (company)
-
-company_list = ['АО "Gate 127"',
-                 'ООО "Б 152"',
-                 'ООО "Футбол"']
-print (company_list)
-print (company_list[0])
+print(a+b+c+True-False)
 
 
-company_tuple = ('АО "Gate 127"',
-                 'ООО "Б 152"',
-                 'ООО "Футбол"')
-print (company_tuple)
-print (company_tuple[-1])
 
-company_dict = {'АО "Gate 127"',
-                 'ООО "Б 152"',
-                 'ООО "Футбол"'}
+
+
+
+
+#2 конвектор секунд
+
+while True:
+    секунды = input("Введи время в секундах: ")
+
+    if секунды.isdigit():
+        часы = int(секунды) // 3600
+        минуты = ((int(секунды)) % 3600) // 60
+        остаток = int(секунды) % 60
+
+        print("Часы:", часы)
+        print("Минуты:", минуты)
+        print("Секунды:", остаток)
+        break
+    else:
+        print("Пиши только цифры, пожалуйста.")
+
+
+
+
+
+
+
+
+#3 арифметическая композиция
+
+while True:
+    n = input("Введите число от 1 до 9: ")
+
+    if n.isdigit() and 1<=int(n)<=9: 
+        nn = n*2
+        nnn = n*3
+    
+        print(n,'+',nn,'+',nnn,'=',(int(n)+int(nn)+int(nnn)))
+        break
+
+    else: print("Ошибка: введите ОДНУ цифру от 1 до 9.")     
