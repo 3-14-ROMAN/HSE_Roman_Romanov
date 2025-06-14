@@ -49,4 +49,9 @@ company_dict['address'] = 'Krasnoyaskrk, Dubenskogo 8'
 company_dict['employers'] -= 2
 print ('company_dict after', company_dict)
 
+
+
+
+company_set = {}
+
  
