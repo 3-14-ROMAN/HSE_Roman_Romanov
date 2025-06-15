@@ -58,6 +58,8 @@ while True:
 
 
 
+
+
 # 1.3 расчёт площади прямоугольного треугольника
 
 def это_число(значение):
@@ -120,10 +122,8 @@ def format_court_line(court_name_raw):
 
 def generate_header(respondent, case_number, my_data, courts):
     court_code = extract_court_code(case_number)
-    court = next(
-        (c for c in courts if normalize(c.get('court_code', '')) == normalize(court_code)),
-        None
-    )
+    court = next((c for c in courts if normalize(c.get('court_code', '')) == 
+                   normalize(court_code)), None)
     court_name = court['court_name'] if court else f"Арбитражный суд с кодом {court_code or '??'}"
     court_address = court['court_address'] if court else "адрес не указан"
     court_name_formatted = format_court_line(court_name)
@@ -145,12 +145,11 @@ def get_user_data():
     print("="*50)
     print("ВВЕДИТЕ ВАШИ ДАННЫЕ КАК ИСТЦА")
     print("="*50)
-    return {
-        'full_name': input("Ваше полное ФИО: "),
+    return {'full_name': input("Ваше полное ФИО: "),
         'inn': input("Ваш ИНН: "),
         'ogrn': input("Ваш ОГРН/ОГРНИП: "),
-        'address': input("Ваш полный адрес: ")
-    }
+        'address': input("Ваш полный адрес: ")}
+    
 
 def select_respondent(respondents):
     print("\n" + "="*50)
@@ -190,4 +189,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    

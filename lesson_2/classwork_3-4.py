@@ -9,12 +9,12 @@ from lesson_2_data import respondents, courts
 # print (court_mapping)
 
 
-def gen_court_header(court):
+def gen_court_header(court: dict) -> None:
     header = f"В {court['court_name']}\n" \
              f"Адрес: {court['court_address']} \n"
     print(header)
 
-def gen_respondent_header(respondent):
+def gen_respondent_header(respondent: dict) -> None:
     header = f"Ответчик: {respondent['short_name']}\n" \
              f"ИНН: {respondent['inn']}, ОГРН: {respondent['ogrn']}\n" \
              f"Адрес: {respondent['address']} \n"
