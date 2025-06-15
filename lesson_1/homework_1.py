@@ -1,4 +1,14 @@
-# 1 вод имени и изменения переменной
+# 1 ввод имени и изменения ID переменной a
+
+a = 1  # int
+print(a,'= a befor', id(a))
+a = 1 + 5
+print(a, '= a after', id(a))
+b = 5.5  # float
+c = True  # bool
+d = False  # bool
+print(a+b+c+True-False)
+
 
 first_name = input("Введите ваше имя: ")  # Запрашиваем имя
 middle_name = input("Введите ваше отчество: ")  # Запрашиваем отчество
@@ -6,14 +16,6 @@ middle_name = input("Введите ваше отчество: ")  # Запра�
 print("Здравствуйте,", first_name, middle_name + "!")  # результат
 
 
-a = 1  # int
-print('a befor', id(a))
-a = 1 + 5
-print('a after', id(a))
-b = 5.5  # float
-c = True  # bool
-d = False  # bool
-print(a+b+c+True-False)
 
 
 
