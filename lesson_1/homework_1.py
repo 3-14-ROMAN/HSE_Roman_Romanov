@@ -1,18 +1,18 @@
-#1 вод имени и изменения переменной 
+# 1 вод имени и изменения переменной
 
-first_name = input("Введите ваше имя: ") # Запрашиваем имя
-middle_name = input("Введите ваше отчество: ") # Запрашиваем отчество
+first_name = input("Введите ваше имя: ")  # Запрашиваем имя
+middle_name = input("Введите ваше отчество: ")  # Запрашиваем отчество
 
-print("Здравствуйте,", first_name, middle_name + "!") #результат
+print("Здравствуйте,", first_name, middle_name + "!")  # результат
 
 
-a = 1 # int
-print ('a befor', id(a))
+a = 1  # int
+print('a befor', id(a))
 a = 1 + 5
-print ('a after', id(a))
-b = 5.5 # float
-c = True # bool
-d = False # bool
+print('a after', id(a))
+b = 5.5  # float
+c = True  # bool
+d = False  # bool
 print(a+b+c+True-False)
 
 
@@ -20,8 +20,7 @@ print(a+b+c+True-False)
 
 
 
-
-#2 конвектор секунд
+# 2 конвектор секунд
 
 while True:
     секунды = input("Введи время в секундах: ")
@@ -40,21 +39,20 @@ while True:
 
 
 
+        
 
 
-
-
-
-#3 арифметическая композиция
+# 3 арифметическая композиция
 
 while True:
     n = input("Введите число от 1 до 9: ")
 
-    if n.isdigit() and 1<=int(n)<=9: 
+    if n.isdigit() and 1 <= int(n) <= 9:
         nn = n*2
         nnn = n*3
-    
-        print(n,'+',nn,'+',nnn,'=',(int(n)+int(nn)+int(nnn)))
+
+        print(n, '+', nn, '+', nnn, '=', (int(n)+int(nn)+int(nnn)))
         break
 
-    else: print("Ошибка: введите ОДНУ цифру от 1 до 9.")     
+    else:
+        print("Ошибка: введите ОДНУ цифру от 1 до 9.")

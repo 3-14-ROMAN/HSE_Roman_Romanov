@@ -1434,7 +1434,7 @@ courts = [{'court_name': 'Арбитражного суда Алтайского
            'court_email': 'info@fasco.arbitr.ru', 'court_website': 'http://fasco.arbitr.ru/',
            'court_head': 'Орлов Александр Владимирович'}]
 
-courts = {i["court_code"]: i for i in courts}
+
 
 if __name__ == "__main__":
     print("stop")
