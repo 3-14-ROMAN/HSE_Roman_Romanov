@@ -1,13 +1,3 @@
-from lesson_2_data import respondents, courts
-import lesson_2_data
-import unicodedata
-import re
-
-
-
-
-
-
 # 1.1 функция вычисления факториала числа
 
 def factorial(n):
@@ -100,29 +90,27 @@ while True:
 
 
 
-
-
 # 2 функция для генерации шапки и дополнительно генерация шапок для всех ответчиков
 
+# В списке respondents есть 200 словарей. Из них только 166 содержат ключ 'case_number'.
+# Поэтому в списке для выбора показываются только 166 компаний.
+import re
+import unicodedata
+from lesson_2_data import respondents, courts
+
 def normalize(s):
-    # """Нормализует строку: убирает пробелы, \xa0, заменяет русскую А на латинскую, приводит к верхнему регистру"""
     s = unicodedata.normalize("NFKC", s)
-    s = s.replace('\xa0', '').replace(' ', '').replace(
-        'А', 'A')  # русская А в латинская A
+    s = s.replace('\xa0', '').replace(' ', '').replace('А', 'A')
     return s.strip().upper()
 
-
 def extract_court_code(case_number):
-    # """Извлекает код суда из номера дела (например, A56 из A56-12345/2021)"""
     case_number = normalize(case_number)
     match = re.match(r'A(\d+)-', case_number)
     if match:
         return f"A{match.group(1).zfill(2)}"
     return None
 
-
 def format_court_line(court_name_raw):
-    # """Формирует строку 'Арбитражный суд ...' из названия в родительном падеже"""
     pattern = r"Арбитражного суда\s+(.*)"
     match = re.search(pattern, court_name_raw, re.IGNORECASE)
     if match:
@@ -130,20 +118,15 @@ def format_court_line(court_name_raw):
         return f"Арбитражный суд {region}"
     return court_name_raw
 
-
 def generate_header(respondent, case_number, my_data, courts):
     court_code = extract_court_code(case_number)
     court = next(
-        (c for c in courts if normalize(
-            c.get('court_code', '')) == normalize(court_code)),
+        (c for c in courts if normalize(c.get('court_code', '')) == normalize(court_code)),
         None
     )
-
-    court_name = court[
-        'court_name'] if court else f"Арбитражный суд с кодом {court_code or '??'}"
+    court_name = court['court_name'] if court else f"Арбитражный суд с кодом {court_code or '??'}"
     court_address = court['court_address'] if court else "адрес не указан"
     court_name_formatted = format_court_line(court_name)
-
     resp_ogrn_type = "ОГРНИП" if len(respondent['ogrn']) == 15 else "ОГРН"
     my_ogrn_type = "ОГРНИП" if len(my_data['ogrn']) == 15 else "ОГРН"
 
@@ -158,7 +141,6 @@ def generate_header(respondent, case_number, my_data, courts):
     header += f"Номер дела {case_number}"
     return header
 
-
 def get_user_data():
     print("="*50)
     print("ВВЕДИТЕ ВАШИ ДАННЫЕ КАК ИСТЦА")
@@ -170,15 +152,13 @@ def get_user_data():
         'address': input("Ваш полный адрес: ")
     }
 
-
 def select_respondent(respondents):
     print("\n" + "="*50)
     print("ДОСТУПНЫЕ ОТВЕТЧИКИ С НОМЕРАМИ ДЕЛ")
     print("="*50)
     valid = [r for r in respondents if 'case_number' in r]
     for i, r in enumerate(valid, 1):
-        print(
-            f"{i}. {r.get('short_name', r['full_name'])} ({r['case_number']})")
+        print(f"{i}. {r.get('short_name', r['full_name'])} ({r['case_number']})")
     while True:
         try:
             idx = int(input("\nВыберите номер ответчика: "))
@@ -187,7 +167,6 @@ def select_respondent(respondents):
         except:
             pass
         print("Ошибка: введите номер из списка")
-
 
 def generate_all_headers(respondents, my_data, courts):
     print("\n" + "="*50)
@@ -198,22 +177,17 @@ def generate_all_headers(respondents, my_data, courts):
         print("\n" + "-"*50)
         print(generate_header(r, r['case_number'], my_data, courts))
 
-
 def main():
     my_data = get_user_data()
     respondent = select_respondent(respondents)
-
     print("\n" + "="*50)
     print("СГЕНЕРИРОВАННАЯ ШАПКА ДОКУМЕНТА")
     print("="*50)
-    print(generate_header(respondent,
-          respondent['case_number'], my_data, courts))
-
-    choice = input(
-        "\nХотите сгенерировать шапки для всех ответчиков? (введите + или -): ")
+    print(generate_header(respondent, respondent['case_number'], my_data, courts))
+    choice = input("\nХотите сгенерировать шапки для всех ответчиков? (введите + или -): ")
     if choice.strip() == "+":
         generate_all_headers(respondents, my_data, courts)
 
-
 if __name__ == "__main__":
     main()
+    
