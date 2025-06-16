@@ -2,6 +2,7 @@ print('Hello world')
 
 import csv
 import json
+import decimal
 
 abs_path_txt = '/Users/roman/Desktop/HSE_Roman_Romanov/lesson_3/traders.txt'
 rel_path_txt = 'lesson_3/traders.txt'
