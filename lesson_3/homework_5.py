@@ -40,8 +40,7 @@ def load_traders_data(json_path):
 def filter_traders_by_inn(traders_data, inn_list):
     return [
         trader for trader in traders_data
-        if trader.get("inn") in inn_list
-    ]
+        if trader.get("inn") in inn_list]
 
 
 def save_traders_to_csv(traders, output_csv_path):
@@ -52,8 +51,7 @@ def save_traders_to_csv(traders, output_csv_path):
             writer.writerow({
                 "inn": trader.get("inn"),
                 "ogrn": trader.get("ogrn"),
-                "address": trader.get("address")
-            })
+                "address": trader.get("address")})
 
 
 def process_and_save_emails(input_json_path, output_json_path):
