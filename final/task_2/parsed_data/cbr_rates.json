@@ -1,0 +1,1568 @@
+{
+  "2024-01-01": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  },
+  "2024-01-02": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  },
+  "2024-01-03": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  },
+  "2024-01-04": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  },
+  "2024-01-05": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  },
+  "2024-01-06": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  },
+  "2024-01-07": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  },
+  "2024-01-08": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  },
+  "2024-01-09": {
+    "AUD": {
+      "value": "61.3468",
+      "nominal": 1
+    },
+    "AZN": {
+      "value": "52.7578",
+      "nominal": 1
+    },
+    "GBP": {
+      "value": "114.5320",
+      "nominal": 1
+    },
+    "AMD": {
+      "value": "22.1567",
+      "nominal": 100
+    },
+    "BYN": {
+      "value": "28.2261",
+      "nominal": 1
+    },
+    "BGN": {
+      "value": "50.9651",
+      "nominal": 1
+    },
+    "BRL": {
+      "value": "18.5268",
+      "nominal": 1
+    },
+    "HUF": {
+      "value": "25.8886",
+      "nominal": 100
+    },
+    "VND": {
+      "value": "37.5799",
+      "nominal": 10000
+    },
+    "HKD": {
+      "value": "11.5014",
+      "nominal": 1
+    },
+    "GEL": {
+      "value": "33.3042",
+      "nominal": 1
+    },
+    "DKK": {
+      "value": "13.3717",
+      "nominal": 1
+    },
+    "AED": {
+      "value": "24.4216",
+      "nominal": 1
+    },
+    "USD": {
+      "value": "89.6883",
+      "nominal": 1
+    },
+    "EUR": {
+      "value": "99.1919",
+      "nominal": 1
+    },
+    "EGP": {
+      "value": "29.0317",
+      "nominal": 10
+    },
+    "INR": {
+      "value": "10.7735",
+      "nominal": 10
+    },
+    "IDR": {
+      "value": "58.1787",
+      "nominal": 10000
+    },
+    "KZT": {
+      "value": "19.7708",
+      "nominal": 100
+    },
+    "CAD": {
+      "value": "67.8840",
+      "nominal": 1
+    },
+    "QAR": {
+      "value": "24.6396",
+      "nominal": 1
+    },
+    "KGS": {
+      "value": "10.0677",
+      "nominal": 10
+    },
+    "CNY": {
+      "value": "12.5762",
+      "nominal": 1
+    },
+    "MDL": {
+      "value": "51.5266",
+      "nominal": 10
+    },
+    "NZD": {
+      "value": "56.8624",
+      "nominal": 1
+    },
+    "NOK": {
+      "value": "88.5059",
+      "nominal": 10
+    },
+    "PLN": {
+      "value": "22.7925",
+      "nominal": 1
+    },
+    "RON": {
+      "value": "19.9494",
+      "nominal": 1
+    },
+    "XDR": {
+      "value": "120.3321",
+      "nominal": 1
+    },
+    "SGD": {
+      "value": "68.0178",
+      "nominal": 1
+    },
+    "TJS": {
+      "value": "81.8712",
+      "nominal": 10
+    },
+    "THB": {
+      "value": "26.2068",
+      "nominal": 10
+    },
+    "TRY": {
+      "value": "30.4815",
+      "nominal": 10
+    },
+    "TMT": {
+      "value": "25.6252",
+      "nominal": 1
+    },
+    "UZS": {
+      "value": "72.6882",
+      "nominal": 10000
+    },
+    "UAH": {
+      "value": "23.6131",
+      "nominal": 10
+    },
+    "CZK": {
+      "value": "40.3293",
+      "nominal": 10
+    },
+    "SEK": {
+      "value": "90.3042",
+      "nominal": 10
+    },
+    "CHF": {
+      "value": "106.7591",
+      "nominal": 1
+    },
+    "RSD": {
+      "value": "84.7178",
+      "nominal": 100
+    },
+    "ZAR": {
+      "value": "48.2647",
+      "nominal": 10
+    },
+    "KRW": {
+      "value": "69.6338",
+      "nominal": 1000
+    },
+    "JPY": {
+      "value": "63.3302",
+      "nominal": 100
+    }
+  }
+}
